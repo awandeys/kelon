@@ -68,6 +68,10 @@ border-left: 5px solid rgb(52,73,94);
 .related-post-style-2 .related-post-item-title {
   font-weight:500;
   font-size:14px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: block;
+  white-space: nowrap;
 }
 .related-post-style-2 .related-post-item-summary {
   display:block;
@@ -80,14 +84,14 @@ border-left: 5px solid rgb(52,73,94);
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
+   white-space: nowrap;
 }
 .related-post-style-2 .related-post-item-more {
   display:none;
 }
-@media screen and (max-width:450px){.related-post-style-2 .related-post-item-summary {display:none;}
-	.related-post-style-2 li {width:100%}
+@media screen and (max-width:450px){.related-post-style-2 li {width:100%}
 }
-@media screen and (max-width:640px){.related-post-style-2 .related-post-item-summary {display:none;}
+@media screen and (max-width:640px){
 }
 /* ==== Related Post Widget End ==== */
 </style>
